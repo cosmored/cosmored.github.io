@@ -1,0 +1,15 @@
+* { 
+    font-family: "Roboto", 'Gill Sans', Calibri, sans-serif; 
+    font-size: 1.25em; 
+} 
+
+h1, h2, h3, h4, h5, h6, a { 
+    font-family: "EB Garamond", "Palatino Linotype", Georgia, serif;     
+    line-height: 1.5em;
+} 
+
+blockquote { 
+    font-family: "Book Antiqua", cursive, serif; 
+    font-style: italic;
+    line-height: 1.3em;
+} 

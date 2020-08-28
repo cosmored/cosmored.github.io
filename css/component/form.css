@@ -1,0 +1,98 @@
+body {
+    background-color: #f2f2f2; 
+    font-family: Cambria;
+    font-size: large;
+}
+
+#signupheader {
+    text-align: center;
+    font-size: 32px;
+    color: blueviolet;
+    margin-bottom: 20px;
+}
+
+.formholder {
+    background-color: #f2f2f2;
+}
+
+.col1{
+    width: 30%;
+    float: left;
+    margin-top: 6px;
+}
+
+.col2{
+    width: 70%;
+    float: left;
+    margin-top: 6px;
+}
+
+label {
+    display: inline-block;
+    width: 100%;
+    padding: 5px 10px 5px 5px;    
+    margin: 5px;
+}
+
+input, select{
+    width: 98%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+    font-size: large;
+    background-color: #dddddd;
+    outline: none;
+  }
+  
+input:focus, select:focus {
+      background-color: whitesmoke;
+      border-bottom: 2px solid green;
+}
+
+button {
+    color: white;
+    font-size: large;
+    padding: 12px 12px;
+    margin-right: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    background-color: red;
+    border: 1px solid red;
+  }
+
+.submitbtn {
+    background-color: green;
+    border: 1px solid green;
+}
+
+
+button:hover {
+    opacity: 1;
+}
+  
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col1, .col2, input {
+      width: 100%;
+      margin-top: 2px;
+    }
+    button {
+        margin-top: 3px;
+        margin-bottom: 5px;
+    }
+  }
