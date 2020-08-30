@@ -1,0 +1,16 @@
+.navlinks {
+    text-decoration: none;
+    color: #d3d20a;
+}
+
+.navlinks:link {
+    color: #d3d20a;
+}
+
+.navlinks:visited {
+    color: #15171b;
+}
+
+.navlinks:hover {
+    color: greenyellow;
+}

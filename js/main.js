@@ -1,5 +1,10 @@
-// typewriter effect 
+// resize the header section
+$(document).ready(function(){
+  $('.header').height($(window).height());
+  })
 
+
+// typewriter effect 
 var TxtRotate = function(el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
