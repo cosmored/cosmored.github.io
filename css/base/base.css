@@ -1,9 +1,9 @@
-.headercarouselcontainer {
+/* .headercarouselcontainer {
   position: relative;
   margin: 0;
   padding: 0;
-  outline: 0;
-}
+  outline: 0; 
+} */
 
 
 .carousel .carousel-item {
@@ -12,11 +12,11 @@
 
 .carousel-item img { 
     position: absolute;
-    object-fit:cover;
+    /* object-fit:cover; */
     top: 0;
     left: 0;
     min-height: 100%;
-} 
+}  
 
 .responsiveimg {
   display: inline-block;
@@ -24,4 +24,14 @@
   width: 100%;
   height: auto;
   object-fit: cover;
+}
+
+.overlayscreen{
+  /* position: absolute; */
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.4;
 }
