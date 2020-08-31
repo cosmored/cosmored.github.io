@@ -1,24 +1,5 @@
-.brandtextcolor-text{
-  color: #d3d20a;
-}
-.brandbgcolor-text{
-  color: #9d2323;
-}
-.brandtextcolor-bg{
-  background-color: #d3d20a;
-}
-.brandbgcolor-bg{
-  background-color: #9d2323;
-}
-.branddarkcolor{
-  color: #ffffff;
-  background-color: #15171b;
-}
-
-
-
 .header {
-  background: url(/img/me-1.jpg);
+  background: url(/img/me-1-1\ [Original\ Size].webp);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;

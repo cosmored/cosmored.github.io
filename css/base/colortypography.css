@@ -1,0 +1,45 @@
+* {
+  font-family: "Roboto", "Gill Sans", Calibri, sans-serif;
+  font-size: 1.25em;
+  line-height: 1.1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: "EB Garamond", "Palatino Linotype", Georgia, serif;
+  line-height: 1.5em;
+}
+
+blockquote {
+  font-family: "Book Antiqua", cursive, serif;
+  font-style: italic;
+  line-height: 1.3em;
+}
+
+/* colors  */
+.brandtextcolor-text {
+  color: #d3d20a;
+}
+.brandbgcolor-text {
+  color: #9d2323;
+}
+.brandtextcolor-bg {
+  background-color: #d3d20a;
+}
+.brandbgcolor-bg {
+  background-color: #9d2323;
+}
+.branddarkcolor {
+  color: #ffffff;
+  background-color: #15171b;
+}
+
+.w3-vivid-green {
+  color: #fff;
+  background-color: #008856;
+}
