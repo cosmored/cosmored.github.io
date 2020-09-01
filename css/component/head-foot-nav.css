@@ -2,22 +2,7 @@
 
 
 /* navbar css  */
-.navlinks {
-    text-decoration: none;
-    color: #d3d20a;
-}
 
-.navlinks:link {
-    color: #d3d20a;
-}
-
-.navlinks:visited {
-    color: #ffffff;
-}
-
-.navlinks:hover {
-    color: greenyellow;
-}
 
 
 /* footer css  */

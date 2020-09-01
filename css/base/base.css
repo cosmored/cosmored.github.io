@@ -1,3 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
 .header {
   background: url(/img/me-1-1\ [Original\ Size].webp);
   background-position: center center;

@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: floralwhite;
+    position: relative;
+}
+
+.undecoratedlinks, .undecoratedlinks:hover {
+    text-decoration: none;
+}
+
+.w3-2019-jester-red {
+    color: #fff;
+    background-color: #9e1030;
+  }
+
+.banner-container {
+  background-color: teal;
+}
+
+.banner-column {
+  background-color: #919191;
+  margin: auto;
+}
+
+.banner-column > p {
+  font-size: 2.5em;
+}
+
+.navbar-container {
+  background-color: #bdbdbd;
+}
+
+#topnavbarcontent > ul > li > a.nav-link {
+  font-size: 1.25em;
+}
+
+#topnavbarcontent > ul > li > a.nav-link:hover:not(.active) {
+  color: white;
+} 
+
+#topnavbarcontent > ul > li > a.active {
+  color: lawngreen;
+}
+
+
+.about-container {
+  background-color: #1bada2;
+}
+
+.education-container {
+    background-color: floralwhite;
+}
+
+.circleplace {
+    background-color: blueviolet;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.circleplace > p {
+    padding-top: 45%;
+}
+
+.project-container {
+    background-color: darkslategrey;
+}
+
+.card-image-top {
+    width: 100%;
+    height: 25vh;
+    object-fit: cover
+}
+
+.form-container {
+    background-color: #142842;
+}
+
+.form-control {
+  background-color: #142842;
+}
+
+textarea[name=textmsg] {
+  resize: none;
+}
+
+#customsubmitbtn span {
+  font-size: 1.5em;
+}
+
+#customsubmitbtn:hover {
+    color: lawngreen;
+}
+
+.footersection {
+  background-color: teal;
+}
+
+.circleicon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: none;
+  font-size: 30px;
+}
+
+.circleicon:hover {
+  background-color: white;
+}
+
+.circleicon:hover i.fa-github {
+  color: #732d8c;
+}
+.circleicon:hover i.fa-facebook-f {
+  color: #0d8cf0;
+}
+.circleicon:hover i.fa-youtube {
+  color: #ff0000;
+}
+.circleicon:hover i.fa-linkedin-in {
+  color: #0077b5;
+}
