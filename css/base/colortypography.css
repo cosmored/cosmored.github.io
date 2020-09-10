@@ -1,4 +1,4 @@
-* {
+body {
   font-family: "Roboto", "Gill Sans", Calibri, sans-serif;
   font-size: 16px;
 }
@@ -13,7 +13,7 @@ h6 {
 }
 
 p {
-  
+
 }
 
 blockquote {
