@@ -1,7 +1,6 @@
 * {
   font-family: "Roboto", "Gill Sans", Calibri, sans-serif;
-  font-size: 1.25em;
-  line-height: 1.1em;
+  font-size: 16px;
 }
 
 h1,
@@ -9,19 +8,23 @@ h2,
 h3,
 h4,
 h5,
-h6,
-a {
+h6 {
   font-family: "EB Garamond", "Palatino Linotype", Georgia, serif;
-  line-height: 1.5em;
+}
+
+p {
+  
 }
 
 blockquote {
   font-family: "Book Antiqua", cursive, serif;
   font-style: italic;
+  font-size: 1.2em;
   line-height: 1.3em;
 }
 
 /* colors  */
+/* brand colors  */
 .brandtextcolor-text {
   color: #d3d20a;
 }
@@ -39,7 +42,28 @@ blockquote {
   background-color: #15171b;
 }
 
+/* other colors  */
 .w3-vivid-green {
   color: #fff;
   background-color: #008856;
+}
+
+/* media query  */
+
+@media only screen and (min-width: 650px){
+  body {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1920px){
+  body {
+    font-size: 20px;
+  }
 }
