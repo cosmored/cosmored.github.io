@@ -39,7 +39,8 @@ body {
 
 .carousel-item img { 
     position: absolute;
-    object-fit:cover;
+    -o-object-fit:cover;
+       object-fit:cover;
     top: 0;
     left: 0;
     min-height: 100%;
@@ -50,7 +51,8 @@ body {
   max-width: 100%;
   width: 100%;
   height: auto;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .cardbutton:hover {
