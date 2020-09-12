@@ -17,34 +17,34 @@ body {
 }
 
 .overlay {
-	position: absolute;
-	min-height: 100%;
-	min-width: 100%;
-	left: 0;
-	top: 0;
-	background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.3);
 }
 
 .description {
   position: absolute;
   width: 100%;
   margin: auto;
-	top: 80%;	
-	text-align: center;
+  top: 80%;
+  text-align: center;
 }
 
 .carousel .carousel-item {
   height: 100vh;
 }
 
-.carousel-item img { 
-    position: absolute;
-    -o-object-fit:cover;
-       object-fit:cover;
-    top: 0;
-    left: 0;
-    min-height: 100%;
-}  
+.carousel-item img {
+  position: absolute;
+  -o-object-fit: cover;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+}
 
 .responsiveimg {
   display: inline-block;
@@ -52,7 +52,7 @@ body {
   width: 100%;
   height: auto;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .cardbutton:hover {
@@ -65,14 +65,12 @@ body {
   background-color: inherit;
 }
 
-
-
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 650px) {
   .description {
     position: absolute;
     width: 100%;
     margin: auto;
-    top: 5%;	
+    top: 5%;
     text-align: center;
-  } 
+  }
 }
