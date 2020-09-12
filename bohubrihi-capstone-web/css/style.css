@@ -1,16 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    background-color: floralwhite;
-    position: relative;
-}
-
-.undecoratedlinks, .undecoratedlinks:hover {
-    text-decoration: none;
-}
-
 .w3-2019-jester-red {
     color: #fff;
     background-color: #9e1030;
@@ -72,7 +59,8 @@ body {
 .card-image-top {
     width: 100%;
     height: 25vh;
-    object-fit: cover
+    -o-object-fit: cover;
+       object-fit: cover
 }
 
 .form-container {

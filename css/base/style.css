@@ -1,0 +1,52 @@
+
+.header {
+    background: url(/img/me-1-1\ [Original\ Size].webp);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .description {
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    top: 80%;
+    text-align: center;
+  }
+  
+  .carousel .carousel-item {
+    height: 100vh;
+  }
+  
+  .carousel-item img {
+    position: absolute;
+    -o-object-fit: cover;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+  }
+  
+  .cardbutton:hover {
+    color: white;
+    border: 2px solid #d3d20a;
+  }
+  
+  .nodecorationfooter {
+    border: none;
+    background-color: inherit;
+  }
+  
+  @media only screen and (max-width: 650px) {
+    .description {
+      position: absolute;
+      width: 100%;
+      margin: auto;
+      top: 5%;
+      text-align: center;
+    }
+  }
+  

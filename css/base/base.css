@@ -1,49 +1,14 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
 *, ::before, ::after {
   box-sizing: border-box;
 }
 
 body {
   position: relative;
-}
-
-.header {
-  background: url(/img/me-1-1\ [Original\ Size].webp);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  padding: 0;
-  margin: 0;
-}
-
-.overlay {
-  position: absolute;
-  min-height: 100%;
-  min-width: 100%;
-  left: 0;
-  top: 0;
-  background: rgba(0, 0, 0, 0.3);
-}
-
-.description {
-  position: absolute;
-  width: 100%;
-  margin: auto;
-  top: 80%;
-  text-align: center;
-}
-
-.carousel .carousel-item {
-  height: 100vh;
-}
-
-.carousel-item img {
-  position: absolute;
-  -o-object-fit: cover;
-  object-fit: cover;
-  top: 0;
-  left: 0;
-  min-height: 100%;
 }
 
 .responsiveimg {
@@ -55,22 +20,43 @@ body {
   object-fit: cover;
 }
 
-.cardbutton:hover {
-  color: white;
-  border: 2px solid #d3d20a;
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.3);
 }
 
-.nodecorationfooter {
-  border: none;
-  background-color: inherit;
+a.undecoratedlinks, a.undecoratedlinks:hover {
+  /* color: inherit; */
+  text-decoration: none;
 }
 
-@media only screen and (max-width: 650px) {
-  .description {
-    position: absolute;
-    width: 100%;
-    margin: auto;
-    top: 5%;
-    text-align: center;
-  }
+.hidden,
+[hidden] {
+  display: none !important;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: " ";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+.floatLeft {
+	float: left;
+}
+
+.floatRight {
+	float: right;
 }
