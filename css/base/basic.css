@@ -1,8 +1,3 @@
-html {
-  margin: 0;
-  padding: 0;
-}
-
 *, ::before, ::after {
   box-sizing: border-box;
 }
@@ -10,6 +5,17 @@ html {
 body {
   position: relative;
 }
+
+.header {
+  background-image: url("/img/me-1-1 [Original Size].webp");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
 
 .responsiveimg {
   display: inline-block;

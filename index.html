@@ -4,17 +4,15 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
 
     <!-- css reset for better cross-browser compatibility -->
     <!-- <link rel="stylesheet" href="css/base/reset.css" /> -->
     <!-- <link rel="stylesheet" href="css/base/normalize.css" /> -->
-    
+
     <!-- bootstrap cdn  -->
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      crossorigin="anonymous" /> -->
-    <!-- bootstrap from local  -->
-    <link rel="stylesheet" href="css/vendor/bootstrap.min.css" />
+    <link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      crossorigin="anonymous" />
 
     <!-- google font cdn  -->
     <link
@@ -25,12 +23,12 @@
       rel="stylesheet">
 
     <!-- custom css  -->
-    <link rel="stylesheet" href="/css/base/base.css" />
+    <link rel="stylesheet" href="/css/base/basic.css" />
     <link rel="stylesheet" href="/css/base/colorTypography.css" />
     <link rel="stylesheet" href="/css/base/style.css" />
     <link rel="stylesheet" href="/css/component/headFootNav.css" />
     <!-- <link rel="stylesheet" href="/css/component/elements.css" -->
-    
+
     <link rel="shortcut icon" href="/img/logo-icon-nobg_32x32.webp" type="image/webp" />
 
     <title>CosmoRed's Portfolio</title>
@@ -40,7 +38,7 @@
 
   <body data-spy="scroll" data-target="#topnavbar" data-offset="3">
     <!-- header landing area  -->
-    <div class="header bgimg" role="header" id="home">
+    <div class="header" role="header" id="home">
       <div class="overlay"></div>
       <div class="description text-light">
         <h1>MD. MARUFUR RAHMAN</h1>
@@ -99,7 +97,7 @@
           <picture>
             <source media="(min-width: 650px)" srcset="/img/brand [Original Size].webp" />
             <source media="(max-width: 649px)" srcset="/img/brand_mini [Original Size].webp" />
-            <img src="/img/brand [Original Size].webp" class="responsiveimg vh-100" loading="lazy"
+            <img src="/img/brand [Original Size].webp" class="responsiveimg vh-100"
               alt="cosmored" />
           </picture>
           <div class="carousel-caption brandbgcolor-text brandtextcolor-bg">
@@ -110,8 +108,7 @@
           <picture>
             <source media="(min-width: 650px)" srcset="/img/laptop [Original Size].webp" />
             <source media="(max-width: 649px)" srcset="/img/laptop_650px.webp" />
-            <img src="/img/laptop [Original Size].webp" class="responsiveimg vh-100" loading="lazy"
-              alt="laptop" />
+            <img src="/img/laptop [Original Size].webp" class="responsiveimg vh-100" alt="laptop" />
           </picture>
           <div class="carousel-caption branddarkcolor">
             <h5>Looks nice on big screens</h5>
@@ -122,7 +119,7 @@
           <picture>
             <source media="(min-width: 650px)" srcset="/img/smartphone [Original Size].webp" />
             <source media="(max-width: 649px)" srcset="/img/smartphone_650px.webp" />
-            <img src="/img/smartphone [Original Size].webp" class="responsiveimg vh-100" loading="lazy"
+            <img src="/img/smartphone [Original Size].webp" class="responsiveimg vh-100"
               alt="smartphone" />
           </picture>
           <div class="carousel-caption branddarkcolor">
@@ -213,20 +210,29 @@
       </div>
     </div>
 
+
     <!-- link javascript here  -->
     <!-- font awesome icon cdn  -->
     <script src="https://kit.fontawesome.com/c59070b7cf.js" crossorigin="anonymous" defer></script>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <!-- <script src="https://code.jquery.com/jqueryy-3.5.1.slim.min.js" crossorigin="anonymous" defer></script> -->
+    <script src="https://code.jquery.com/jqueryy-3.5.1.slim.min.js" crossorigin="anonymous" async
+      defer></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      crossorigin="anonymous" defer></script>
-    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      crossorigin="anonymous" defer></script> -->
+      crossorigin="anonymous" async defer></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      cssorigin="anonymous" async defer></script>
 
-    <!-- load local copy  -->
-    <script src="js/vendor/jquery-3.5.1.slim.min.js" defer></script>
-    <script src="js/vendor/bootstrap.min.js" defer></script>
+    <!-- optionaly load local  -->
+    <!-- <script>
+        window.jQuery || document.write(
+        '<script src="js/vendor/jquery-3.5.1.slim.min.js" defer><\/script>');
+      
+        if (!$.fn.modal) {
+          document.write('<script src="js/vendor/bootstrap.min.js" defer><\/script>');
+          document.write('<link href="css/vendor/bootstrap.min.css" rel="stylesheet">');
+      }
+    </script> -->
 
 
     <!-- custom javascript  -->
