@@ -1,42 +1,40 @@
+.description {
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  top: 80%;
+  text-align: center;
+}
 
+.carousel .carousel-item {
+  height: 100vh;
+}
+
+.carousel-item img {
+  position: absolute;
+  -o-object-fit: cover;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+}
+
+.cardbutton:hover {
+  color: white;
+  border: 2px solid #d3d20a;
+}
+
+.nodecorationfooter {
+  border: none;
+  background-color: inherit;
+}
+
+@media only screen and (max-width: 650px) {
   .description {
     position: absolute;
     width: 100%;
     margin: auto;
-    top: 80%;
+    top: 5%;
     text-align: center;
   }
-  
-  .carousel .carousel-item {
-    height: 100vh;
-  }
-  
-  .carousel-item img {
-    position: absolute;
-    -o-object-fit: cover;
-    object-fit: cover;
-    top: 0;
-    left: 0;
-    min-height: 100%;
-  }
-  
-  .cardbutton:hover {
-    color: white;
-    border: 2px solid #d3d20a;
-  }
-  
-  .nodecorationfooter {
-    border: none;
-    background-color: inherit;
-  }
-  
-  @media only screen and (max-width: 650px) {
-    .description {
-      position: absolute;
-      width: 100%;
-      margin: auto;
-      top: 5%;
-      text-align: center;
-    }
-  }
-  
+}
