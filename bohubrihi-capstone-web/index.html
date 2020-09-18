@@ -6,27 +6,34 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet"
-            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-            crossorigin="anonymous" />
+        <!-- css reset for better cross-browser compatibility (use normalize.css) -->
+        <!-- <link rel="stylesheet" href="css/base/normalize.css" /> -->
 
-        <!-- google font cdn  -->
+        <!-- bootstrap cdn  -->
+        <!-- <link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      crossorigin="anonymous" /> -->
+        <link rel="stylesheet" href="/css/vendor/bootstrap.min.purged.css" />
+        <!-- <script>
+    if (!$.fn.modal) {
+      document.write(`<link href="/css/vendor/bootstrap.min.purged.css" rel="stylesheet">`);
+    }
+  </script> -->
+
+        <!-- google font cdn with optimizations  -->
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous" />
         <link
             href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,700&display=swap"
-            rel="stylesheet">
+            rel="stylesheet" media="print" onload="this.media='all'" />
         <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&display=swap"
-            rel="stylesheet">
-
-        <!-- font awesome icon cdn  -->
-        <script src="https://kit.fontawesome.com/c59070b7cf.js" crossorigin="anonymous" defer></script>
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap"
+            rel="stylesheet" media="print" onload="this.media='all'" />
 
         <link rel="stylesheet" href="/css/base/basic.css" />
         <link rel="stylesheet" href="/css/base/colortypography.css" />
 
         <link rel="stylesheet" href="css/style.css" />
-        <link rel="shortcut icon" href="img/me-1-full__Original_Size_nobg.webp" type="image/webp">
+        <link rel="shortcut icon" href="img/me-1-full__Original_Size_nobg.webp" type="image/webp" />
 
         <title>Bootstrap Web Design Capstone Project</title>
     </head>
@@ -132,12 +139,10 @@
                         <div class="jumbotron ml-4">
                             <p class="lead">MS Engg.</p>
                             <p class="text-justify">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-                                atque nesciunt
-                                excepturi, neque, tempora accusantium illum laudantium voluptatem
-                                doloribus id laborum
-                                aliquid maxime consectetur, blanditiis laboriosam odio facilis ipsa
-                                obcaecati.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Praesentium atque nesciunt excepturi, neque, tempora accusantium
+                                illum laudantium voluptatem doloribus id laborum aliquid maxime
+                                consectetur, blanditiis laboriosam odio facilis ipsa obcaecati.
                             </p>
                         </div>
                     </div>
@@ -152,12 +157,10 @@
                         <div class="jumbotron ml-4">
                             <p class="lead">B.Sc Engg.</p>
                             <p class="text-justify">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-                                atque nesciunt
-                                excepturi, neque, tempora accusantium illum laudantium voluptatem
-                                doloribus id laborum
-                                aliquid maxime consectetur, blanditiis laboriosam odio facilis ipsa
-                                obcaecati.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Praesentium atque nesciunt excepturi, neque, tempora accusantium
+                                illum laudantium voluptatem doloribus id laborum aliquid maxime
+                                consectetur, blanditiis laboriosam odio facilis ipsa obcaecati.
                             </p>
                         </div>
                     </div>
@@ -180,18 +183,21 @@
                                 <div class="col">
                                     <img src="img/bohubrihi-htmlcourse-cert_450px.webp"
                                         class="img-fluid"
-                                        alt="Bohubrihi.com html 5, css 3 and bootstrap 4 course certificate of completion">
+                                        alt="Bohubrihi.com html 5, css 3 and bootstrap 4 course certificate of completion" />
                                 </div>
                                 <div class="col">
-                                    <p class="lead">HTML5, CSS3 &amp; Bootstrap 4 For Web
-                                        Development from Bohubrihi.com</p>
+                                    <p class="lead">
+                                        HTML5, CSS3 &amp; Bootstrap 4 For Web Development from
+                                        Bohubrihi.com
+                                    </p>
                                     <p class="text-justify">
                                         Completed this course in less than 3 weeks and build this
-                                        website in 1 week.
-                                        I have learnt a lot of things and revised a few others in
-                                        this course.
-                                        <br /> <br /> <em>Hoping to use the acquired skills in the
-                                            IT industry.</em>
+                                        website in 1 week. I have learnt a lot of things and revised
+                                        a few others in this course.
+                                        <br />
+                                        <br />
+                                        <em>Hoping to use the acquired skills in the IT
+                                            industry.</em>
                                     </p>
                                 </div>
                             </div>
@@ -212,56 +218,47 @@
                 <div class="row justify-content-center">
                     <div class="col-md-3 mx-2 mb-3">
                         <img src="img/brand_mini [Original Size].webp"
-                            class="card-image-top img-fluid" alt="cosmored logo">
+                            class="card-image-top img-fluid" alt="cosmored logo" />
                         <div class="card-body">
                             <a href="#projects" class="undecoratedlinks text-success">
-                                <h5 class="card-title">
-                                    Cosmored Portfolio on Github
-                                </h5>
+                                <h5 class="card-title">Cosmored Portfolio on Github</h5>
                             </a>
                             <p class="card-text text-white">
                                 A portfolio hosted in Github for personal use. <br />
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores
-                                qui ipsam mollitia eaque
-                                placeat! Nobis ad quibusdam eius provident eos. Deserunt officiis,
-                                repellat culpa fugit
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Dolores qui ipsam mollitia eaque placeat! Nobis ad quibusdam
+                                eius provident eos. Deserunt officiis, repellat culpa fugit
                                 blanditiis voluptatem. Dicta, odit error!
                             </p>
                         </div>
                     </div>
                     <div class="col-md-3 mx-2 mb-3">
                         <img src="img/smartphone_650px.webp" class="card-image-top img-fluid"
-                            alt="smartphone">
+                            alt="smartphone" />
                         <div class="card-body">
                             <a href="#projects" class="undecoratedlinks text-success">
-                                <h5 class="card-title">
-                                    Random Smartphone Image
-                                </h5>
+                                <h5 class="card-title">Random Smartphone Image</h5>
                             </a>
-                            <p class="card-text  text-white">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores
-                                qui ipsam mollitia eaque
-                                placeat! Nobis ad quibusdam eius provident eos. Deserunt officiis,
-                                repellat culpa fugit
+                            <p class="card-text text-white">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Dolores qui ipsam mollitia eaque placeat! Nobis ad quibusdam
+                                eius provident eos. Deserunt officiis, repellat culpa fugit
                                 blanditiis voluptatem. Dicta, odit error!
                             </p>
                         </div>
                     </div>
                     <div class="col-md-3 mx-2 mb-3">
                         <img src="img/brand_mini [Original Size].webp"
-                            class="card-image-top img-fluid" alt="cosmored logo">
+                            class="card-image-top img-fluid" alt="cosmored logo" />
                         <div class="card-body">
                             <a href="#projects" class="undecoratedlinks text-success">
-                                <h5 class="card-title">
-                                    Cosmored Portfolio on Github
-                                </h5>
+                                <h5 class="card-title">Cosmored Portfolio on Github</h5>
                             </a>
                             <p class="card-text text-white">
                                 A portfolio hosted in Github for personal use. <br />
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores
-                                qui ipsam mollitia eaque
-                                placeat! Nobis ad quibusdam eius provident eos. Deserunt officiis,
-                                repellat culpa fugit
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Dolores qui ipsam mollitia eaque placeat! Nobis ad quibusdam
+                                eius provident eos. Deserunt officiis, repellat culpa fugit
                                 blanditiis voluptatem. Dicta, odit error!
                             </p>
                         </div>
@@ -284,7 +281,7 @@
                             <div class="card-body">
                                 <a href="#portfolio">
                                     <img src="img/me-1-full__Original_Size.webp"
-                                        class="card-image-top img-fluid" alt="my photo">
+                                        class="card-image-top img-fluid" alt="my photo" />
                                 </a>
                             </div>
                         </div>
@@ -294,7 +291,7 @@
                             <div class="card-body">
                                 <a href="#portfolio">
                                     <img src="img/brand_mini [Original Size].webp"
-                                        class="card-image-top img-fluid" alt="cosmored">
+                                        class="card-image-top img-fluid" alt="cosmored" />
                                 </a>
                             </div>
                         </div>
@@ -304,7 +301,7 @@
                             <div class="card-body">
                                 <a href="#portfolio">
                                     <img src="img/smartphone_650px.webp"
-                                        class="card-image-top img-fluid" alt="smarthone">
+                                        class="card-image-top img-fluid" alt="smarthone" />
                                 </a>
                             </div>
                         </div>
@@ -316,7 +313,7 @@
                             <div class="card-body">
                                 <a href="#portfolio">
                                     <img src="img/smartphone_650px.webp"
-                                        class="card-image-top img-fluid" alt="my photo">
+                                        class="card-image-top img-fluid" alt="my photo" />
                                 </a>
                             </div>
                         </div>
@@ -326,7 +323,7 @@
                             <div class="card-body">
                                 <a href="#portfolio">
                                     <img src="img/me-1-full__Original_Size_nobg.webp"
-                                        class="card-image-top img-fluid" alt="cosmored">
+                                        class="card-image-top img-fluid" alt="cosmored" />
                                 </a>
                             </div>
                         </div>
@@ -336,7 +333,7 @@
                             <div class="card-body">
                                 <a href="#portfolio">
                                     <img src="img/brand_mini [Original Size].webp"
-                                        class="card-image-top img-fluid" alt="smarthone">
+                                        class="card-image-top img-fluid" alt="smarthone" />
                                 </a>
                             </div>
                         </div>
@@ -358,24 +355,24 @@
                         <div class="form-group col-md-6">
                             <label for="firstname" class="text-white">First Name</label>
                             <input type="text" name="firstname" id="firstname" class="form-control"
-                                placeholder="John">
+                                placeholder="John" />
                         </div>
                         <div class="form-group col-md-6">
                             <label for="lastname" class="text-white">Last Name</label>
                             <input type="text" name="lastname" id="lastname" class="form-control"
-                                placeholder="Doe">
+                                placeholder="Doe" />
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="from-group col-md-6">
                             <label for="email" class="text-white">Email</label>
                             <input type="email" name="email" id="email" class="form-control"
-                                placeholder="example@mail.com">
+                                placeholder="example@mail.com" />
                         </div>
                         <div class="form-group col-md-6">
                             <label for="password" class="text-white">Password</label>
                             <input type="password" name="password" id="password"
-                                class="form-control" placeholder="12#456&8">
+                                class="form-control" placeholder="12#456&8" />
                         </div>
                     </div>
                     <div class="form-row">
@@ -431,15 +428,30 @@
             </div>
         </footer>
 
+        <!-- link javascript here  -->
+        <!-- font awesome icon cdn  -->
+        <script src="https://kit.fontawesome.com/c59070b7cf.js" crossorigin="anonymous"
+            async></script>
 
-        <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"
+            defer></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-            crossorigin="anonymous"></script>
+            crossorigin="anonymous" defer></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-            crossorigin="anonymous"></script>
+            cssorigin="anonymous" defer></script>
+
+        <!-- optionaly load local  -->
+        <script>
+            window.jQuery ||
+                document.write(
+                    `<script src="/js/vendor/jquery-3.5.1.slim.min.js"><\/script>`
+                );
+
+            if (!$.fn.modal) {
+                document.write(`<script src="/js/vendor/bootstrap.min.js"><\/script>`);
+            }
+        </script>
 
         <!-- custom javascript -->
         <script src="js/main.js"></script>
