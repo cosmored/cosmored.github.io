@@ -217,7 +217,7 @@
 
     <!-- link javascript here  -->
     <!-- font awesome icon cdn  -->
-    <script src="https://kit.fontawesome.com/c59070b7cf.js" crossorigin="anonymous" defer async></script>
+    <script src="https://kit.fontawesome.com/c59070b7cf.js" crossorigin="anonymous" async></script>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous" defer></script>
@@ -228,18 +228,17 @@
 
     <!-- optionaly load local  -->
     <script>
-      window.jQuery || document.write(
-        '<script src="js/vendor/jquery-3.5.1.slim.min.js defer"><\/script>');
-
+      window.jQuery || document.write(`<script src="/js/vendor/jquery-3.5.1.slim.min.js"></script>`);
+    
       if (!$.fn.modal) {
-        document.write('<script src="js/vendor/bootstrap.min.js defer"<\/script>');
-        document.write('<link href="css/vendor/bootstrap.min.css" rel="stylesheet">');
+        document.write(`<script src="/js/vendor/bootstrap.min.js"></script>`);
+        document.write(`<link href="/css/vendor/bootstrap.min.css" rel="stylesheet">`);
       }
     </script>
 
 
     <!-- custom javascript  -->
-    <script src="js/main.js"></script>
+    <script src="/js/main.js"></script>
   </body>
 
 </html>
