@@ -1,10 +1,10 @@
 html {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.25;
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", Arial, Tahoma, sans-serif;
   color: black;
   background-color: white; 
 }
@@ -15,15 +15,27 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "EB Garamond", Georgia, serif;
+  font-family: "EB Garamond", Georgia, Times, serif;
 }
 
 blockquote {
-  font-family: "Book Antiqua", cursive, serif;
+  font-family: "EB Garamond", Georgia, Times, serif;
   font-style: italic;
   font-size: 1.25em;
   line-height: 1.3;
   page-break-inside: avoid;
+}
+
+.serif-font {
+  font-family: "EB Garamond", Georgia, Times, serif;
+}
+
+.sans-serif-font {
+  font-family: "Montserrat", Arial, Tahoma, sans-serif;
+}
+
+.monospace-font {
+  font-family: "Lucida Console", Monaco, monospace;
 }
 
 /* colors  */
