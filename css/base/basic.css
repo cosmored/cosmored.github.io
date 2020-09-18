@@ -9,7 +9,7 @@ body {
 }
 
 .header {
-  background-image: url("/img/me-1-1_[OriginalSize].webp");
+  background-image: url("/img/me-1-1_orig.webp");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
