@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            crossorigin="anonymous">
+
+        <!-- google font cdn with optimizations  -->
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,700&display=swap"
+            rel="stylesheet" media="print" onload="this.media='all'">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap"
+            rel="stylesheet" media="print" onload="this.media='all'">
+
+        <!-- custom css  -->
+        <link rel="stylesheet" href="/css/base/basic.css">
+        <link rel="stylesheet" href="/css/base/colortypography.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>RegExMatch</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col text-center my-3">
+                    <h2>RegEx Matcher</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 vl" id="options">
+                    <button class="btn btn-dark optBtn" id="Email address">Email address</button>
+                    <button class="btn btn-dark optBtn" id="Phone number">Phone number</button>
+                    <button class="btn btn-dark optBtn" id="Date">Date</button>
+                </div>
+                <div class="col-md-8 middle" id="outputarea"></div>
+            </div>
+        </div>
+
+
+        <!-- Optional JavaScript -->
+        <!-- font awesome icon cdn  -->
+        <script src="https://kit.fontawesome.com/c59070b7cf.js" crossorigin="anonymous" async
+            defer></script>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            crossorigin="anonymous"></script>
+        
+            <!-- optionaly load local  -->
+        <script>
+            window.jQuery || document.write(`<script src="/js/vendor/jquery-3.5.1.slim.min.js"><\/script>`);
+
+            if (!$.fn.modal) {
+                document.write(`<script src="/js/vendor/bootstrap.min.js"><\/script>`);
+            }
+        </script>
+
+        <!-- custom js  -->
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
