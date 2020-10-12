@@ -19,12 +19,15 @@ body {
 }
 
 .responsiveimg {
-  display: inline-block;
   max-width: 100%;
-  width: 100%;
+  /* width: 100%; */
   height: auto;
   -o-object-fit: cover;
   object-fit: cover;
+}
+
+.width-100 {
+  width: 100%;
 }
 
 .overlay {

@@ -5,14 +5,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <!-- css reset for better cross-browser compatibility (bootstrap uses normalize.css) -->
-    <!-- <link rel="stylesheet" href="css/base/normalize.css" /> -->
-
     <!-- bootstrap cdn  -->
-    <!-- <link rel="stylesheet"
+    <link rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      crossorigin="anonymous" /> -->
-    <link rel="stylesheet" href="/css/vendor/bootstrap.min.purged.css" />
+      crossorigin="anonymous" />
+    <!-- <link rel="stylesheet" href="/css/vendor/bootstrap.min.purged.css" /> -->
     <!-- <script>
       if (!$.fn.modal) {
         document.write(`<link href="/css/vendor/bootstrap.min.purged.css" rel="stylesheet">`);
@@ -33,9 +30,8 @@
     <link rel="stylesheet" href="/css/base/colortypography.css" />
     <link rel="stylesheet" href="/css/base/style.css" />
     <link rel="stylesheet" href="/css/component/headFootNav.css" />
-    <!-- <link rel="stylesheet" href="/css/component/elements.css" -->
-
-    <link rel="shortcut icon" href="/img/logo-icon-nobg_32x32.webp" type="image/webp" />
+    <link rel="stylesheet" href="/css/component/elements.css" <link rel="shortcut icon"
+      href="/img/logo-icon-nobg_32x32.webp" type="image/webp" />
 
     <title>CosmoRed's Portfolio</title>
     <meta name="Author" content="Md Marufur Rahman" />
@@ -106,8 +102,7 @@
           <picture>
             <source media="(min-width: 650px)" srcset="/img/brand_orig.webp" />
             <source media="(max-width: 649px)" srcset="/img/brand_mini_orig.webp" />
-            <img src="/img/brand_orig.webp" class="responsiveimg vh-100"
-              alt="cosmored" />
+            <img src="/img/brand_orig.webp" class="responsiveimg width-100 vh-100" alt="cosmored" />
           </picture>
           <div class="carousel-caption brandbgcolor-text brandtextcolor-bg">
             <h3>Built for today and tomorrow</h3>
@@ -117,7 +112,7 @@
           <picture>
             <source media="(min-width: 650px)" srcset="/img/laptop_orig.webp" />
             <source media="(max-width: 649px)" srcset="/img/laptop_650px.webp" />
-            <img src="/img/laptop_orig.webp" class="responsiveimg vh-100" loading="lazy"
+            <img src="/img/laptop_orig.webp" class="responsiveimg width-100 vh-100" loading="lazy"
               alt="laptop" />
           </picture>
           <div class="carousel-caption branddarkcolor">
@@ -129,8 +124,8 @@
           <picture>
             <source media="(min-width: 650px)" srcset="/img/smartphone_orig.webp" />
             <source media="(max-width: 649px)" srcset="/img/smartphone_650px.webp" />
-            <img src="/img/smartphone_orig.webp" class="responsiveimg vh-100"
-              loading="lazy" alt="smartphone" />
+            <img src="/img/smartphone_orig.webp" class="responsiveimg width-100 vh-100" loading="lazy"
+              alt="smartphone" />
           </picture>
           <div class="carousel-caption branddarkcolor">
             <h5>Looks nice on small devices, too</h5>
@@ -150,13 +145,16 @@
 
     <!-- projects section -->
     <div class="container" id="projectssection">
-      <div class="row text-center my-5">
-        <div class="col">
-          <h2>PROJECTS</h2>
+      <div class="container">
+        <div class="row text-center my-5">
+          <div class="col">
+            <h2>PROJECTS</h2>
+          </div>
         </div>
       </div>
+
       <!-- card grid for projects section -->
-      <div class="card-deck container mx-auto my-5" id="projects">
+      <div class="card-deck mx-auto my-5" id="projects">
         <div class="card" id="projectcard1">
           <img src="/img/bohubrihi-html-capstone.webp" class="card-img-top responsiveimg"
             alt="project" />
@@ -172,18 +170,19 @@
             <a href="/bohubrihi-capstone-web/index.html" class="btn w3-vivid-green cardbutton"
               role="button" target="_blank">I want to see it!!!</a>
           </div>
-        </div>
+        </div>        
         <div class="card" id="projectcard2">
           <picture>
             <source media="(min-width: 450px)" srcset="/img/practiceproject1snapshot1_650px.webp" />
             <source media="(max-width: 449px)" srcset="/img/practiceproject1snapshot1_450px.webp" />
-            <img src="/img/practiceproject1snapshot1_orig.webp"
-              class="card-img-top responsiveimg" alt="bohubrihi html css bootstrap final project" />
+            <img src="/img/practiceproject1snapshot1_orig.webp" class="card-img-top responsiveimg"
+              alt="bohubrihi html css bootstrap final project" />
           </picture>
           <div class="card-body">
             <h3 class="card-title">Javascript Shopping Cart Project</h3>
             <p class="card-text">
-              Built a shopping cart using Javascript and OOP. It works nicely, though duplicate item shopping logic is not implemented yet. 
+              Built a shopping cart using Javascript and OOP. It works nicely, though duplicate item
+              shopping logic is not implemented yet.
             </p>
           </div>
           <div class="card-footer text-center nodecorationfooter">
@@ -195,36 +194,34 @@
           <picture>
             <source media="(min-width: 450px)" srcset="/img/smartphone_650px.webp" />
             <source media="(max-width: 449px)" srcset="/img/smartphone_450px.webp" />
-            <img src="/img/smartphone_orig.webp" class="card-img-top responsiveimg"
-              alt="project" />
+            <img src="/img/smartphone_orig.webp" class="card-img-top responsiveimg" alt="project" />
           </picture>
           <div class="card-body">
             <h3 class="card-title">Mini Regex Matcher</h3>
             <p class="card-text">
-              Check email, date and other format validity. 
+              Check email, date and other format validity.
             </p>
           </div>
           <div class="card-footer text-center nodecorationfooter">
-            <a href="/jsworks/2-regex-matcher/index.html" class="btn w3-vivid-green cardbutton" 
-            role="button" target="_blank">I want to see it!!!</a>
+            <a href="/jsworks/2-regex-matcher/index.html" class="btn w3-vivid-green cardbutton"
+              role="button" target="_blank">I want to see it!!!</a>
           </div>
         </div>
         <div class="card" id="projectcard4">
           <picture>
             <source media="(min-width: 450px)" srcset="/img/smartphone_650px.webp" />
             <source media="(max-width: 449px)" srcset="/img/smartphone_450px.webp" />
-            <img src="/img/smartphone_orig.webp" class="card-img-top responsiveimg"
-              alt="project" />
+            <img src="/img/smartphone_orig.webp" class="card-img-top responsiveimg" alt="project" />
           </picture>
           <div class="card-body">
             <h3 class="card-title">Silly Number Guesser</h3>
             <p class="card-text">
-              Guess the randomly selected hidden number... 
+              Guess the randomly selected hidden number...
             </p>
           </div>
           <div class="card-footer text-center nodecorationfooter">
-            <a href="/jsworks/3-number-guesser/index.html" class="btn w3-vivid-green cardbutton" 
-            role="button" target="_blank">I want to see it!!!</a>
+            <a href="/jsworks/3-number-guesser/index.html" class="btn w3-vivid-green cardbutton"
+              role="button" target="_blank">I want to see it!!!</a>
           </div>
         </div>
       </div>
@@ -233,7 +230,8 @@
 
     <!-- link javascript here  -->
     <!-- font awesome icon cdn  -->
-    <script src="https://kit.fontawesome.com/c59070b7cf.js" crossorigin="anonymous" async defer></script>
+    <script src="https://kit.fontawesome.com/c59070b7cf.js" crossorigin="anonymous" async
+      defer></script>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"
