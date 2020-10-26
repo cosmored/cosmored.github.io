@@ -1,11 +1,13 @@
 :root{
+  --basefontsize: 16px;
   --brandtext: #d3d20a;
   --brandbg: #9d2323;
   --branddark: #15171b;
 }
 
 html {
-  font-size: 16px;
+  font-size: var(--basefontsize);
+  scroll-behavior: smooth;
 }
   
 body {
