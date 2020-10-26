@@ -1,3 +1,13 @@
+::-moz-selection {
+  color: #111;
+  background: var(--brandtext);
+}
+
+::selection {
+  color: #111;
+  background: var(--brandtext);
+}
+
 .description {
   position: absolute;
   width: 100%;
